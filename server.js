@@ -18,7 +18,13 @@
 // In terminal : (server)--> 
    // git init // To make an empty repository
    // git add
-   // git commit "commit msg"
+   // git commit -m "commit msg"
+   // heroku create {repo name} This will give 2 things:url where it eill be live 2.git repo
+       //in heroku: settings --> reveal config --> modify key, value
+  // FINAL COMMAND:  git push heroku master (it will deploy in heroku using git)
+
+
+
 
 import express from 'express';
 import dotenv from 'dotenv';
