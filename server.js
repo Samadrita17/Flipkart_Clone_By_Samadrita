@@ -15,6 +15,10 @@
 //Make changes in MongoDB. Now we can access it from anywhere
 
 // In terminal : cd server--> heroku login(to logina nd use heroku commands)
+// In terminal : (server)--> 
+   // git init // To make an empty repository
+   // git add
+   // git commit "commit msg"
 
 import express from 'express';
 import dotenv from 'dotenv';
